@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%); /* Gris de los botones */
+  --grey-800: hsl(0, 0%, 12%); /* Gris de la tarjeta */
+  --grey-900: hsl(0, 0%, 8%);  /* Gris del fondo (Body) */
+}
+
+/* Un pequeño "reset" para que no haya márgenes raros */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--grey-900);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: var(--white);
+}
+

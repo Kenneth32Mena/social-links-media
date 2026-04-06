@@ -1,0 +1,61 @@
+.card {
+  background-color: var(--grey-800);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 380px;
+  width: 100%;
+}
+
+.card img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+.card h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.card .location {
+  color: var(--green);
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.card .bio {
+  font-size: 14px;
+  margin-bottom: 24px;
+  color: var(--white);
+  opacity: 0.8;
+}
+
+.links ul {
+  list-style: none; /* Quita los puntitos de la lista */
+}
+
+.links li {
+  margin-bottom: 16px;
+}
+
+.links a {
+  display: block;
+  background-color: var(--grey-700);
+  color: var(--white);
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  transition: all 0.3s ease; /* Para que el cambio de color sea suave */
+}
+
+/* El efecto cuando pasás el mouse (Hover) */
+.links a:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
+}
